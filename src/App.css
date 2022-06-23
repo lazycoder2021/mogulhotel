@@ -2,6 +2,31 @@
   text-align: center;
 }
 
+.baba{
+    color:black;
+    text-decoration:underline;
+}
+
+.gap{
+    margin-bottom:70px;
+}
+
+span{
+    color:red;
+    font-weight:bold;
+}
+
+.notes{
+    margin-top:30px;
+    cursor:pointer;
+}
+
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +60,367 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.navbar{
+    background:black;
+    color:white;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    height:130px;
+}
+
+.navlinks{
+    display:flex;
+    margin-right:20px;
+}
+
+.navlinks p{
+    padding:5px;
+    cursor:pointer;
+}
+
+.logoo{
+    margin-left:20px;
+}
+
+.hero{
+    height:90vh;
+    background:black;
+    margin:0px;
+    color:white;
+    //border:1px solid white;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+}
+
+.hero h2{
+    font-size:90px;
+    font-weight:100;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:18px;
+}
+
+.hero button{
+    margin-top:20px;
+    padding:10px;
+    border-radius:4px;
+    cursor:pointer;
+    outline:none;
+}
+
+.hero button {
+    font-size:16px;
+}
+
+.formContainer{
+    height: 90vh;
+    margin: 0px;
+    //color: white;
+    //border:10px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+form {
+    border: 1px solid black;
+    padding: 10px;
+    height: 300px;
+    width: 500px;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+    text-align:center;
+}
+
+form h2{
+    margin-bottom:20px;
+    font-size:34px;
+    font-weight:100;
+}
+
+form input{
+    width:100%;
+    padding:3px;
+    margin-bottom:10px;
+    font-size:16px;
+    border:2px solid black;
+    border-radius:4px;
+}
+
+form button{
+    float:left;
+    margin-top:20px;
+    padding:5px 15px;
+    font-size:18px;
+    background:black;
+    color:white;
+    border-radius:4px;
+}
+
+a{
+    text-decoration:none;
+    color:white;
+}
+
+.container{
+    //border:1px solid black;
+    width:1000px;
+    margin:20px auto;
+    height:auto;
+}
+
+.card {
+    display: flex;
+    width: 100%;
+    border:2px solid black;
+    padding: 5px;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+    margin-top:50px;
+    border-radius:4px;
+}
+
+.cardLeft, .cardRight{
+    width:50%;
+    height:200px;
+}
+
+.cardRight {
+    margin-left: 10px;
+}
+
+.cardLeft img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+}
+
+.cardRight h2{
+    margin-bottom:10px;
+    
+}
+
+.cardRight button{
+    margin-top:15px;
+    padding:5px 10px;
+    background:black;
+    color:white;
+    cursor:pointer;
+    border-radius:4px;
+}
+
+.bookNow{
+    margin-left:0px;
+}
+
+.welcomeuser{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    //margin-bottom:10px;
+}
+
+.dropdown{
+    margin-right:20px;
+    margin-left:5px;
+    font-size:20px;
+    flex-direction:column;
+}
+
+.usermenu{
+    margin-top:10px;
+}
+
+.userprofile, .logoutBtn{
+    cursor:pointer;
+}
+
+.profileCard{
+    //border:1px solid black;
+    width:800px;
+    margin:50px auto;
+}
+
+.profileCard h3{
+    font-weight:100;
+    margin-bottom:5px;
+}
+
+.profileContents{
+    //border:2px solid black;
+    width:100%;
+}
+
+.profileContents input{
+    width:100%;
+    margin:5px 0px;
+    padding:3px;
+}
+
+.profileContents button{
+    padding:4px 8px;
+    margin:10px 0px;
+    background:black;
+    color:white;
+}
+
+.profileTitle{
+margin-bottom:20px;
+}
+
+button.addroom {
+    background-color: green;
+    color: black;
+    font-weight: bold;
+    margin-right:5px;
+}
+
+button.editroom{
+    background-color:lightgray;
+    color:black;
+    font-weight:bold;
+}
+
+button.deleteroom {
+    background-color: red;
+    color:black;
+    font-weight:bold;  
+    margin-left:5px;
+}
+
+.addRoomContainer {
+    display: flex;
+    flex-direction:column;
+    width: 40%;
+    margin:0px auto;
+    border: 2px solid black;
+    padding: 5px;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+    margin-top: 20px;
+    border-radius: 4px;
+    margin-bottom:100px;
+}
+
+.addRoomContainer input{
+    width:100%; 
+    padding:2px;
+    margin-top:2px;
+}
+
+.addRoomContainer select{
+    width:100%;
+    padding:2px;
+}
+
+.addRoomControl{
+    margin:5px 0px;
+}
+
+.addRoomControl button{
+    padding:4px 8px;
+    background-color:black;
+    color:white;
+    font-size:14px;
+    margin-top:5px;
+    cursor:pointer;
+}
+
+.backtorooms{
+    text-align:center;
+    width:100%;
+    margin-top:0px;
+}
+
+.editcard {
+    display: flex;
+    width: 60%;
+    margin:20px auto;
+    border: 2px solid black;
+    padding: 20px;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+    margin-top: 50px;
+    border-radius: 4px;
+    flex-direction:column;
+    grid-row-gap:20px;
+}
+
+.updateroom{
+    width:20%;
+    margin-top:15px;
+    background:black;
+    color:white;
+    padding:3px 6px;
+    border-radius:4px;
+}
+
+.editcard .mod{
+    margin-left:10px;
+    background:black;
+    color:white;
+    padding:3px;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+.para{
+    margin-top:20px;
+}
+
+.releaseNotesContainer {
+    width: 60%;
+    margin: 20px auto;
+    border: 2px solid black;
+    padding: 20px;
+    box-shadow: 0 1rem 3rem rgb(0 0 0 / 18%) !important;
+    border-radius:4px;
+}
+
+    .releaseNotesContainer p{
+        margin-bottom:20px;
+    }
+
+    @media only screen and (max-width:480px) {
+        form{
+        width:450px;
+    }
+
+    .hero h2{
+        font-size:45px;
+    }
+
+    .container{
+        width:470px;
+    }
+
+    .card{
+        flex-direction:column;
+        width:470px;
+    }
+
+    .cardLeft, .cardRight{
+        width:100%;
+    }
+
+    .profileCard{
+        width:470px;
+    }
+
+        .releaseNotesContainer{
+            width:450px;
+        }
+
+        .editcard{
+            width:470px;
+        }
+
+        .updateroom{
+            width:200px;
+        }
+
 }
